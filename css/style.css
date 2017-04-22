@@ -1,19 +1,19 @@
 body
 {
-  font-family: Roboto;
+  font-family: PTSans;
   font-style: normal;
   font-size: 14px;
+  text-transform: uppercase;
   font-weight: bold;
   font-color: #000000;
 }
 h2
 {
-  font-family: Roboto;
+  font-family: PTSans;
   font-style: normal;
   font-size: 30px;
   font-weight: bold;
-  font-color: #000000;
-}
+  }
 h3
 {
   font-family: Roboto;
@@ -22,60 +22,65 @@ h3
   font-weight: bold;
   font-color: #000000;
 }
-b
+.features b
 {
-  font-family: Roboto;
+  font-family: PTSans;
   font-style: normal;
   font-size: 30px;
   font-weight: bold;
   font-color: #000000;
 }
-li
-{
-  font-family: Roboto;
-  font-style: normal;
-  font-size: 14spx;
-  font-weight: bold;
-  font-color: #000000;
 }
- p
+.main-header a
 {
-  font-family: Roboto;
-  font-style: normal;
-  font-size: 14px;
-  font-weight: bold;
-  font-color: #000000;
-}
-.main-navigation a
-{
-  font-family: Roboto;
+  font-family: PTSans;
   font-style: normal;
   font-size: 16px;
+  text-transform: uppercase;
   font-weight: bold;
-  font-color: #000000;
-}
-.user-block a
-{
-  font-family: Roboto;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: bold;
-  font-color: #000000;
-}
-.breadcrumbs a
-{
-  font-family: Roboto;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: bold;
-  font-color: #000000;
-}
+  }
+
 .content-description p
 {
-  font-family: Roboto;
+  font-family: PTSans;
   font-style: normal;
   font-size: 14px;
   font-weight: bold;
   font-variant: small-caps;
   font-color: #000000;
+}
+.news-preview li p
+{
+  font-family: PTSans;
+  font-style: normal;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.index-content,
+.breadcrumbs a
+{
+  font-family: PTSans;
+  font-style: normal;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.index-content-left,
+.index-content-right,
+.footer-contacts p
+{
+  font-family: PTSans;
+  font-style: normal;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.main-footer .container p
+{
+  font-family: PTSans;
+  font-style: normal;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
